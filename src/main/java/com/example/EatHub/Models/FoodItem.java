@@ -36,4 +36,8 @@ public class FoodItem {
     @ManyToOne
     @JoinColumn
     private Cart cart;
+
+    @ManyToOne
+    @JoinColumn
+    private MenuItem menuItem;
 }
